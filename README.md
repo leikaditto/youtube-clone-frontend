@@ -3,8 +3,6 @@
 A simple **YouTube homepage clone** built using **only HTML and CSS**.  
 This project focuses on replicating the **layout, structure, and styling** of YouTube’s interface without any JavaScript or external frameworks.
 
----
-
 ## 🎯 Project Purpose
 
 The main goal of this project is to:
@@ -15,8 +13,6 @@ The main goal of this project is to:
 
 This project is **front-end only** and does not include real video playback or backend functionality.
 
----
-
 ## 🚀 Features
 
 - YouTube-style homepage layout
@@ -26,8 +22,6 @@ This project is **front-end only** and does not include real video playback or b
 - Clean and modern UI styling
 - Fully built with **HTML5 & CSS3 only**
 
----
-
 ## 🛠️ Built With
 
 - **HTML5**
@@ -36,8 +30,6 @@ This project is **front-end only** and does not include real video playback or b
   - CSS Grid
   - Responsive design principles
 
----
-
 ## ❌ Limitations
 
 - No JavaScript functionality
@@ -45,16 +37,12 @@ This project is **front-end only** and does not include real video playback or b
 - No backend or API integration
 - Static UI only
 
----
-
 ## 📚 What I Learned
 
 - Structuring large layouts with HTML
 - Using Flexbox and Grid effectively
 - Building responsive layouts without JavaScript
 - Improving attention to UI details
-
----
 
 ## 🔮 Future Improvements
 
