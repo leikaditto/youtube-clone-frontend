@@ -1,0 +1,93 @@
+/* keeps its shape */
+/* object-fit: contain;
+object-position: bottom; */
+* {
+    font-family: "Space Mono", monospace;
+}
+
+/* Search Bar */
+.searchRow {
+    width: 3000px;
+}
+.searchBar {
+    font-size: 23px;
+
+    display: block;
+    width: 600px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin: 0px;
+
+    border-radius: 35px;
+    border-style: solid;
+}
+
+/* Video Preview */
+.Preview {
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+/* thumbnail Row */
+.rowNail {
+    margin-bottom: 10px;
+    width: 350px;
+    height: 200px;
+}
+.picNail {
+    width: 350px;
+    cursor: pointer;
+}
+
+
+/* Channel Info Row */
+.infoRow {
+    width: 350px;
+    margin: 0px;
+}
+/* Channel Image Row */
+.chaMage {
+    width: 45px;
+    display: inline-block;
+    vertical-align: top;
+}
+.proPic {
+    width: 100%;
+    height: 45px;
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+/* Video Info Row */
+.vidFo {
+    width: 295px;
+    display: inline-block;
+}
+.vidTitle {
+    font-size: 15px;
+    font-weight: 600;
+
+    vertical-align: top;
+    margin: 0px;
+    margin-bottom: 12px;
+
+    line-height: 23px;
+    cursor: pointer;
+}
+.vidTitle:hover{
+    color: rgb(65, 65, 65);
+}
+.creatorName:hover {
+    text-decoration: underline;
+    color: rgb(61, 61, 61);
+    cursor: pointer;
+}
+.creatorName, .vidStats {
+    margin: 0px;
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+}
