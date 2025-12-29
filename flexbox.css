@@ -1,0 +1,19 @@
+.mainGrid {
+    display: flex;
+    flex-direction: row;
+}
+.gridOne {
+    background-color: aquamarine;
+}
+.gridTwo {
+    background-color: pink;
+}
+.gridThree {
+    background-color: chartreuse;
+}
+.gridFour {
+    background-color: chocolate;
+}
+.gridFive {
+    background-color: cornflowerblue;
+}

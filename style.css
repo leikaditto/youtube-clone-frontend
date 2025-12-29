@@ -7,7 +7,7 @@ object-position: bottom; */
 
 /* Search Bar */
 .searchRow {
-    width: 3000px;
+    width: 1000px;
 }
 .searchBar {
     font-size: 23px;
@@ -24,13 +24,22 @@ object-position: bottom; */
     border-style: solid;
 }
 
+/* HOME PAGE GRID */
+.homePageMainGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+
+    margin-top: 30px;
+}
+
 /* Video Preview */
 .Preview {
-    display: inline-block;
+    /* display: inline-block;
     width: 350px;
     vertical-align: top;
-    margin-left: 15px;
-    margin-top: 30px;
+    margin-left: 15px; */
 }
 /* thumbnail Row */
 .rowNail {
@@ -39,24 +48,24 @@ object-position: bottom; */
     height: 200px;
 }
 .picNail {
-    width: 350px;
+    width: 100%;
     cursor: pointer;
 }
 
 
 /* Channel Info Row */
 .infoRow {
-    width: 350px;
-    margin: 0px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 /* Channel Image Row */
 .chaMage {
-    width: 45px;
     display: inline-block;
     vertical-align: top;
+    background-color: grey;
 }
 .proPic {
-    width: 100%;
+    width: 45px;
     height: 45px;
     border-radius: 60px;
     object-fit: cover;
@@ -64,8 +73,10 @@ object-position: bottom; */
 
 /* Video Info Row */
 .vidFo {
-    width: 295px;
+    width: 300px;
     display: inline-block;
+
+    background-color: grey;
 }
 .vidTitle {
     font-size: 15px;
@@ -73,6 +84,7 @@ object-position: bottom; */
 
     vertical-align: top;
     margin: 0px;
+    margin-left: 5px;
     margin-bottom: 12px;
 
     line-height: 23px;
