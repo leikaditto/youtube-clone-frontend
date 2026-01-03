@@ -1,0 +1,43 @@
+/* The Header */
+.ytHeader {
+    height: 55px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Start */
+.headStart {
+    background-color: chartreuse;
+    width: 150px;
+}
+
+/* Search Bar (Center) */
+.headCenter {
+    background-color: cadetblue;
+    flex: 1;
+    margin-right: 30px;
+    margin-left: 70px;
+
+    max-width: 550px;
+}
+.searchBar {
+    font-size: 15px;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+    border-radius: 35px;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+}
+
+
+/* End */
+.headEnd {
+    background-color: coral;
+    width: 200px;
+}
