@@ -5,7 +5,7 @@
     column-gap: 15px;
     row-gap: 40px;
 
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
@@ -28,7 +28,6 @@
 .chaMage {
     display: inline-block;
     vertical-align: top;
-    background-color: grey;
 }
 .proPic {
     width: 45px;
@@ -40,7 +39,6 @@
 /* Video Info Row */
 .vidFo {
     width: 100%;
-    background-color: grey;
 }
 .vidTitle {
     font-size: 15px;
