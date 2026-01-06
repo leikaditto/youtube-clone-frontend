@@ -1,0 +1,59 @@
+.sideBar {
+    background-color: whitesmoke;
+    top: 55px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 75px;
+
+    display: flex;
+    flex-direction: column;
+}
+.homeIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    cursor: pointer;
+}
+.dHomeIcon {
+    height: 30px;
+}
+.shortIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+    cursor: pointer;
+}
+.dShortIcon {
+    height: 30px;
+}
+.subsIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+    cursor: pointer;
+}
+.dSubsIcon {
+    height: 30px;
+}
+.userIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+    cursor: pointer;
+}
+.dUserIcon {
+    height: 30px;
+}
