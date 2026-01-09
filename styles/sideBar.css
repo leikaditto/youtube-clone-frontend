@@ -4,11 +4,18 @@
     position: fixed;
     left: 0px;
     bottom: 0px;
-    width: 75px;
+    width: 90px;
 
     display: flex;
     flex-direction: column;
+
+    z-index: 100;
 }
+.iconNames {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
 .homeIcon {
     display: flex;
     flex-direction: column;
@@ -17,43 +24,60 @@
 
     margin-top: 20px;
     cursor: pointer;
+    height: 75px;
 }
 .dHomeIcon {
     height: 30px;
 }
+.homeIcon:hover {
+    background-color: lightgray;
+}
+
 .shortIcon {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    margin-top: 40px;
     cursor: pointer;
+    height: 75px;
 }
 .dShortIcon {
     height: 30px;
 }
+.shortIcon:hover {
+    background-color: lightgray;
+}
+
 .subsIcon {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    margin-top: 40px;
     cursor: pointer;
+
+    height: 75px;
 }
 .dSubsIcon {
     height: 30px;
 }
+.subsIcon:hover {
+    background-color: lightgray;
+}
+
 .userIcon {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    margin-top: 40px;
     cursor: pointer;
+    height: 75px;
 }
 .dUserIcon {
     height: 30px;
+}
+.userIcon:hover {
+    background-color: lightgray;
 }
