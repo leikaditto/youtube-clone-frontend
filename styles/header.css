@@ -6,6 +6,7 @@
     top: 0px;
     left: 0px;
     right: 0px;
+    z-index: 100;
     
     display: flex;
     flex-direction: row;
@@ -166,8 +167,11 @@
     margin: 7px;
 }
 
+.boxNotif {
+    position: relative;
+}
 .bellNotif {
-    height: 28px;
+    height: 30px;
     width: 30px;
     display: flex;
     flex-direction: row;
@@ -176,6 +180,27 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+.countNotif {
+    background-color: rgb(206, 0, 0);
+    color: whitesmoke;
+
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 60px;
+
+    position: absolute;
+    right: 4px;
+    top: -5px;
+
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 10px;
+
+}
+
+
 .iconPpf {
     height: 38px;
     width: 38px;
