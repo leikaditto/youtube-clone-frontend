@@ -69,9 +69,18 @@
     line-height: 23px;
     cursor: pointer;
 }
-.vidTitle:hover{
-    color: rgb(65, 65, 65);
+.titleLink {
+    text-decoration: none;
+    color: black;
 }
+.titleLink:visited {
+    color: black;
+    text-decoration: none;
+}
+.titleLink:hover{
+    color: rgb(73, 73, 73);
+}
+
 .creatorName:hover {
     font-weight: bold;
     color: rgb(32, 32, 32);
