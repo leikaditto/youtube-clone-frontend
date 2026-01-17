@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/videoPlay.css">
+
+    <link rel="shortcut icon" href="icons/youtube-icon-logo.svg" type="image/x-icon">
+    <title>Youtube Play Clone</title>
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <div class="ytHeader">
+
+        <!-- start -->
+        <div class="headStart">
+
+            <img class="burger" src="icons/burger-menu.svg" alt="Menu Logo">
+            
+            <div class="ytHome">
+                <img class="ytLogo" src="icons/youtube-logo.svg" alt="YOUTUBE LOGO">
+                <div class="tooltip">
+                    Youtube Home
+                </div>
+            </div>
+        </div>
+
+        <!-- Search Bar (center) -->
+        <div class="headCenter">
+
+            <input class="searchBar" type="text" placeholder="Search">
+            <button class="searchBtn">
+                <img class="srchLogo" src="icons/search-logo.svg">
+                <div class="tooltip">
+                    Search
+                </div>
+            </button>
+            <button class="micBtn">
+                <img class="micLogo" src="icons/mic-on.svg">
+                <div class="tooltip">
+                    Search with your voice
+                </div>
+            </button>
+        
+        </div>
+
+        <!-- end -->
+        <div class="headEnd">
+            <button class="uploadIcon">
+                <img class="uploadEmegi" src="icons/plus-upload.svg">
+                Create
+            </button>
+            <div class="boxNotif">
+                <img class="bellNotif" src="icons/bell-notif.svg">
+                <div class="countNotif">
+                    8
+                </div>
+                <div class="tooltip">
+                    Notifications
+                </div>
+            </div>
+            <img class="iconPpf" src="channels/NiniFB.jpg">
+        </div>
+
+    </div>
+
+    <!-- iFrame Play -->
+    <div class="mainBox">
+
+        <div class="frameBox">
+            <iframe width="642" height="370" src="https://www.youtube.com/embed/J1zU8bPVJZQ" 
+            title="Evil Cycle Iruma Just Returned After 200 Chapters...But He&#39;s Not The Same" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
