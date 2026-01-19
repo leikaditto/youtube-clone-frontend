@@ -45,6 +45,7 @@
 .chaMage {
     display: inline-block;
     vertical-align: top;
+    cursor: pointer;
 }
 .proPic {
     width: 35px;
@@ -52,6 +53,42 @@
     border-radius: 60px;
     object-fit: cover;
 }
+
+/* Hover Channel Info */
+.hoverTips {
+    opacity: 0;
+}
+.chaMage:hover .hoverTips {
+    position: absolute;
+    width: 270px;
+    height: 80px;
+
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px -5px #434343;
+
+    display: flex;
+    flex-direction: row;
+    opacity: 1;
+}
+.proPic1 {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 70px;
+}
+.ppfIcon {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.ppfInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
 
 /* Video Info Row */
 .vidFo {

@@ -1,7 +1,7 @@
 body {
     font-family: "Space Mono", monospace;
     margin: 0px;
-    padding-top: 70px;
+    padding-top: 80px;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -15,8 +15,7 @@ body {
     border-color: red;
     border-width: 1;
 
-    padding-left: 50px;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 .frameBox {
     width: 642px;
